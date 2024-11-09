@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  box-sizing: border-box;
+}
+
+html {
+  display: block;
+  scroll-behavior: smooth;
+}
+
+body {
+  padding: 0 12%;
+  color: gainsboro;
+  background-image: url('assets/images/Pattern/paisley.png');
+  background-repeat: repeat;
+}
+
+.container,
+.content {
+  margin: auto;
+  padding: 1rem;
+  width: 100%;
+  background-color: rgba(105, 105, 105, 0.825);
+}
+
+/* Header */
+
+header {
+  padding-top: 1.5rem;
+}
+
+header .container .title {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+header nav {
+  margin-top: 1rem;
+}
+
+nav ul {
+  display: flex;
+  gap: 2rem;
+}
+
+nav ul li a {
+  color: beige;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+nav ul li a:hover {
+  color: rgb(43, 40, 40);
+}
+
+/* Main */
+
+.main .container {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  height: 83vh;
+  background-image: url('assets/images/Banner/alex-knight-j4uuKnN43_M-unsplash.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: .7rem;
+  box-shadow: 0 0 .8rem #000000;
+}
+
+.main .content h2 {
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.main .content h3 {
+  margin-bottom: 1.3rem;
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.main .content h3 a {
+  color: crimson;
+}
+
+.main .content h3 a:hover {
+  color: blue;
+}
+
+.main .content p {
+  margin-bottom: 1.1rem;
+  font-size: 1.2rem;
+  color: gainsboro;
+  font-weight: 600;
+}
+
+/* Footer */
+
+footer .container {
+  padding: 1rem;
+  bottom: 0;
+  background-color: rgb(40, 37, 37);
+}
+
+footer .container p {
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 500;
+}
